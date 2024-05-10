@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import { useState } from "react";
 import CartModal from "../Modal/CartModal";
 import "./CartButton.css";
-import cartLogo from '/home/zahrav/Documents/React JS/foodorder/src/assets/grocery-store.png'
+import cartLogo from '../../assets/grocery-store.png'
 
 export default function CartButton() {
   const totalQuantity = useSelector((state) => state.cart.totalQuantity)
