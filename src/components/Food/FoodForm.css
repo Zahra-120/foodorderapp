@@ -1,0 +1,35 @@
+.quantity {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.input{
+    width: 25px;
+    height: 25px;
+    border-radius: 8px;
+    border: none;
+    background-color: #C7C8CA;
+    padding-left: 10px;
+    color: black;
+    font-size: 16px;
+}
+
+.qtyBtn{
+    background-color: #3EB075;
+    border: none;
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.qtyBtn:hover {
+    background-color: #69BF70;
+}
+
+.qty{
+    font-weight: 600;
+}
