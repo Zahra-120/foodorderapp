@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import image from '/home/zahrav/Documents/React JS/foodorder/src/assets/food1.jpg'
+import image from '/foodorder/src/assets/food1.jpg'
 import Content from '../Content/Content'
 import CartButton from './CartButton'
 
